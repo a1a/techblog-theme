@@ -10,6 +10,8 @@ html,body {
 .mysocial { color: hsl(0, 0%, 100%);}
 .mysocial:hover { color: hsl(0, 0%, 71%) }
 
+.navbar { background-color: #3273dc; }
+
 .share-buttons > * {
   vertical-align: bottom;
 }
