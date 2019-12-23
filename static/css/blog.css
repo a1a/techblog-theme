@@ -6,7 +6,14 @@ html,body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}
+.hero-body-title {
+    letter-spacing: 3px;
+}
+.hero-body-subtitle {
+    letter-spacing: 1.5px;
+    margin-top: 0.5rem;
+}
 .mysocial { color: hsl(0, 0%, 100%);}
 .mysocial:hover { color: hsl(0, 0%, 71%) }
 
