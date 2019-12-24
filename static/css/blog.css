@@ -20,3 +20,11 @@ html,body {
 .share-buttons > * {
   vertical-align: bottom;
 }
+.responsive-section {
+  padding: 3rem 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .responsive-section {
+    padding: 3rem .75rem;
+  }
+}
