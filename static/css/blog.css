@@ -1,15 +1,30 @@
 html,body {
     font-family: 'Open Sans', sans-serif;
     background: #F0F2F4;
-    }
+}
 .hero-body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}
+.hero-body-title {
+    letter-spacing: 3px;
+}
+.hero-body-subtitle {
+    letter-spacing: 1.5px;
+    margin-top: 0.5rem;
+}
 .mysocial { color: hsl(0, 0%, 100%);}
 .mysocial:hover { color: hsl(0, 0%, 71%) }
 
 .share-buttons > * {
   vertical-align: bottom;
+}
+.responsive-section {
+  padding: 3rem 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .responsive-section {
+    padding: 3rem .75rem;
+  }
 }

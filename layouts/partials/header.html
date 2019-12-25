@@ -27,33 +27,17 @@
 </head>
 <body>
 
-    <!-- nav -->
-    <nav class="navbar is-fixed-top has-background-link" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item has-text-white" href="{{ .Site.BaseURL | absURL }}">
-              <img src="{{ "img/logo.png" | absURL }}" alt="logo" />&nbsp;Home
-            </a>
-        </div>
-    </nav>
-    <!-- /nav -->
-
     <!-- hero -->
-    <section class="hero is-info is-medium">
+    <section class="hero is-info">
         <div class="hero-body" style="background-image: url({{ "img/bg-blog.jpg" | absURL }});">
             <div class="container has-text-centered">
                 <br>
-                <h1 class="title is-size-1">
-                    {{ if eq .Type "tags" }}
-                        #{{ .Title }}
-                    {{ else if eq .Type "archives" }}
-                        Archive {{ .Title }}
-                    {{ else }}
-                        {{ .Title }}
-                    {{ end }}
-                </h1>
-                {{ if eq .Type "article" }}
-                    {{ .Date.Format "January 2, 2006" }} &middot;&nbsp;{{ .ReadingTime }} min read
-                {{ end }}
+                <a class="hero-body-title title is-size-1 has-text-white" href="{{ .Site.BaseURL | absURL }}">
+                    &nbsp;A1A.dev
+                </a>
+                <p class="hero-body-subtitle is-size-4 has-text-white">
+                    &nbsp;Look for a new angle
+                </p>
             </div>
         </div>
     </section>
